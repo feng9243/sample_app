@@ -1,2 +1,2 @@
-$("#follow_form").html("<%= escape_javascript (render partial: 'users/follow', :locals => {:@user => @user})  %>");
+$("#follow_form").html("<%= escape_javascript (render partial: 'users/follow')  %>");
 $("#followers").html('<%= @user.followers.count %>');
